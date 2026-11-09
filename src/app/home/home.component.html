@@ -1,0 +1,6 @@
+<h2>welcome to home</h2>
+
+<p>you are logged in as {{auth.username}}</p>
+<a [routerLink]="['/dashboard',auth.username]">open my dashboard</a>
+<br><br>
+<button (click)="logout()">logout</button>
